@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :statics
   resources :store_admins
   resources :statics
   get 'home', to: 'static#home'
